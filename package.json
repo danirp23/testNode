@@ -1,0 +1,21 @@
+{
+  "name": "testnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node indexExcel"
+  },
+  "dependencies": {
+    "aws-sdk": "2.586.0",
+    "aws-sdk-mock": "4.5.0",
+    "csv-parse": "^4.16.3",
+    "excel4node": "^1.8.0",
+    "moment": "^2.26.0",
+    "moment-timezone": "^0.5.31"
+  },
+  "author": "",
+  "license": "ISC"
+}
